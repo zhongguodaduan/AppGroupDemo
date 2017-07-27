@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D45C3341F29A0F5002BF1FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C3331F29A0F5002BF1FC /* main.m */; };
+		6D45C3371F29A0F5002BF1FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C3361F29A0F5002BF1FC /* AppDelegate.m */; };
+		6D45C33A1F29A0F5002BF1FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C3391F29A0F5002BF1FC /* ViewController.m */; };
+		6D45C33D1F29A0F5002BF1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C33B1F29A0F5002BF1FC /* Main.storyboard */; };
+		6D45C33F1F29A0F5002BF1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C33E1F29A0F5002BF1FC /* Assets.xcassets */; };
+		6D45C3421F29A0F5002BF1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D45C3401F29A0F5002BF1FC /* LaunchScreen.storyboard */; };
+		6D45C34D1F29A0F5002BF1FC /* FoxitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C34C1F29A0F5002BF1FC /* FoxitAppTests.m */; };
+		6D45C3581F29A0F5002BF1FC /* FoxitAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D45C3571F29A0F5002BF1FC /* FoxitAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D45C3491F29A0F5002BF1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D45C3271F29A0F5002BF1FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D45C32E1F29A0F5002BF1FC;
+			remoteInfo = FoxitApp;
+		};
+		6D45C3541F29A0F5002BF1FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D45C3271F29A0F5002BF1FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D45C32E1F29A0F5002BF1FC;
+			remoteInfo = FoxitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D45C32F1F29A0F5002BF1FC /* FoxitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D45C3331F29A0F5002BF1FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D45C3351F29A0F5002BF1FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D45C3361F29A0F5002BF1FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D45C3381F29A0F5002BF1FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D45C3391F29A0F5002BF1FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D45C33C1F29A0F5002BF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D45C33E1F29A0F5002BF1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D45C3411F29A0F5002BF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D45C3431F29A0F5002BF1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D45C3481F29A0F5002BF1FC /* FoxitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D45C34C1F29A0F5002BF1FC /* FoxitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxitAppTests.m; sourceTree = "<group>"; };
+		6D45C34E1F29A0F5002BF1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D45C3531F29A0F5002BF1FC /* FoxitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D45C3571F29A0F5002BF1FC /* FoxitAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoxitAppUITests.m; sourceTree = "<group>"; };
+		6D45C3591F29A0F5002BF1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D45C3FA1F29BEF6002BF1FC /* FoxitApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoxitApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D45C32C1F29A0F5002BF1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C3451F29A0F5002BF1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C3501F29A0F5002BF1FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D45C3261F29A0F5002BF1FC = {
+			isa = PBXGroup;
+			children = (
+				6D45C3311F29A0F5002BF1FC /* FoxitApp */,
+				6D45C34B1F29A0F5002BF1FC /* FoxitAppTests */,
+				6D45C3561F29A0F5002BF1FC /* FoxitAppUITests */,
+				6D45C3301F29A0F5002BF1FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D45C3301F29A0F5002BF1FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D45C32F1F29A0F5002BF1FC /* FoxitApp.app */,
+				6D45C3481F29A0F5002BF1FC /* FoxitAppTests.xctest */,
+				6D45C3531F29A0F5002BF1FC /* FoxitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D45C3311F29A0F5002BF1FC /* FoxitApp */ = {
+			isa = PBXGroup;
+			children = (
+				6D45C3FA1F29BEF6002BF1FC /* FoxitApp.entitlements */,
+				6D45C3351F29A0F5002BF1FC /* AppDelegate.h */,
+				6D45C3361F29A0F5002BF1FC /* AppDelegate.m */,
+				6D45C3381F29A0F5002BF1FC /* ViewController.h */,
+				6D45C3391F29A0F5002BF1FC /* ViewController.m */,
+				6D45C33B1F29A0F5002BF1FC /* Main.storyboard */,
+				6D45C33E1F29A0F5002BF1FC /* Assets.xcassets */,
+				6D45C3401F29A0F5002BF1FC /* LaunchScreen.storyboard */,
+				6D45C3431F29A0F5002BF1FC /* Info.plist */,
+				6D45C3321F29A0F5002BF1FC /* Supporting Files */,
+			);
+			path = FoxitApp;
+			sourceTree = "<group>";
+		};
+		6D45C3321F29A0F5002BF1FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D45C3331F29A0F5002BF1FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D45C34B1F29A0F5002BF1FC /* FoxitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D45C34C1F29A0F5002BF1FC /* FoxitAppTests.m */,
+				6D45C34E1F29A0F5002BF1FC /* Info.plist */,
+			);
+			path = FoxitAppTests;
+			sourceTree = "<group>";
+		};
+		6D45C3561F29A0F5002BF1FC /* FoxitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D45C3571F29A0F5002BF1FC /* FoxitAppUITests.m */,
+				6D45C3591F29A0F5002BF1FC /* Info.plist */,
+			);
+			path = FoxitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D45C32E1F29A0F5002BF1FC /* FoxitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D45C35C1F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitApp" */;
+			buildPhases = (
+				6D45C32B1F29A0F5002BF1FC /* Sources */,
+				6D45C32C1F29A0F5002BF1FC /* Frameworks */,
+				6D45C32D1F29A0F5002BF1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxitApp;
+			productName = FoxitApp;
+			productReference = 6D45C32F1F29A0F5002BF1FC /* FoxitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D45C3471F29A0F5002BF1FC /* FoxitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D45C35F1F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitAppTests" */;
+			buildPhases = (
+				6D45C3441F29A0F5002BF1FC /* Sources */,
+				6D45C3451F29A0F5002BF1FC /* Frameworks */,
+				6D45C3461F29A0F5002BF1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D45C34A1F29A0F5002BF1FC /* PBXTargetDependency */,
+			);
+			name = FoxitAppTests;
+			productName = FoxitAppTests;
+			productReference = 6D45C3481F29A0F5002BF1FC /* FoxitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D45C3521F29A0F5002BF1FC /* FoxitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D45C3621F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitAppUITests" */;
+			buildPhases = (
+				6D45C34F1F29A0F5002BF1FC /* Sources */,
+				6D45C3501F29A0F5002BF1FC /* Frameworks */,
+				6D45C3511F29A0F5002BF1FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D45C3551F29A0F5002BF1FC /* PBXTargetDependency */,
+			);
+			name = FoxitAppUITests;
+			productName = FoxitAppUITests;
+			productReference = 6D45C3531F29A0F5002BF1FC /* FoxitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D45C3271F29A0F5002BF1FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Foxit;
+				TargetAttributes = {
+					6D45C32E1F29A0F5002BF1FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BJ8GW4GX4G;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6D45C3471F29A0F5002BF1FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BJ8GW4GX4G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D45C32E1F29A0F5002BF1FC;
+					};
+					6D45C3521F29A0F5002BF1FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BJ8GW4GX4G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D45C32E1F29A0F5002BF1FC;
+					};
+				};
+			};
+			buildConfigurationList = 6D45C32A1F29A0F5002BF1FC /* Build configuration list for PBXProject "FoxitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D45C3261F29A0F5002BF1FC;
+			productRefGroup = 6D45C3301F29A0F5002BF1FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D45C32E1F29A0F5002BF1FC /* FoxitApp */,
+				6D45C3471F29A0F5002BF1FC /* FoxitAppTests */,
+				6D45C3521F29A0F5002BF1FC /* FoxitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D45C32D1F29A0F5002BF1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D45C3421F29A0F5002BF1FC /* LaunchScreen.storyboard in Resources */,
+				6D45C33F1F29A0F5002BF1FC /* Assets.xcassets in Resources */,
+				6D45C33D1F29A0F5002BF1FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C3461F29A0F5002BF1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C3511F29A0F5002BF1FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D45C32B1F29A0F5002BF1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D45C33A1F29A0F5002BF1FC /* ViewController.m in Sources */,
+				6D45C3371F29A0F5002BF1FC /* AppDelegate.m in Sources */,
+				6D45C3341F29A0F5002BF1FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C3441F29A0F5002BF1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D45C34D1F29A0F5002BF1FC /* FoxitAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45C34F1F29A0F5002BF1FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D45C3581F29A0F5002BF1FC /* FoxitAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D45C34A1F29A0F5002BF1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D45C32E1F29A0F5002BF1FC /* FoxitApp */;
+			targetProxy = 6D45C3491F29A0F5002BF1FC /* PBXContainerItemProxy */;
+		};
+		6D45C3551F29A0F5002BF1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D45C32E1F29A0F5002BF1FC /* FoxitApp */;
+			targetProxy = 6D45C3541F29A0F5002BF1FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D45C33B1F29A0F5002BF1FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D45C33C1F29A0F5002BF1FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D45C3401F29A0F5002BF1FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D45C3411F29A0F5002BF1FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D45C35A1F29A0F5002BF1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D45C35B1F29A0F5002BF1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D45C35D1F29A0F5002BF1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoxitApp/FoxitApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sijia liu (UDW29GKJYJ)";
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e920d7cd-7d86-4609-93c8-1f598bf77fbc";
+				PROVISIONING_PROFILE_SPECIFIER = "AppGroup Demo Foxit -- LSJ";
+			};
+			name = Debug;
+		};
+		6D45C35E1F29A0F5002BF1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoxitApp/FoxitApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: sijia liu (UDW29GKJYJ)";
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e920d7cd-7d86-4609-93c8-1f598bf77fbc";
+				PROVISIONING_PROFILE_SPECIFIER = "AppGroup Demo Foxit -- LSJ";
+			};
+			name = Release;
+		};
+		6D45C3601F29A0F5002BF1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit.FoxitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxitApp.app/FoxitApp";
+			};
+			name = Debug;
+		};
+		6D45C3611F29A0F5002BF1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit.FoxitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxitApp.app/FoxitApp";
+			};
+			name = Release;
+		};
+		6D45C3631F29A0F5002BF1FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit.FoxitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoxitApp;
+			};
+			name = Debug;
+		};
+		6D45C3641F29A0F5002BF1FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BJ8GW4GX4G;
+				INFOPLIST_FILE = FoxitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.appgroup.foxit.FoxitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FoxitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D45C32A1F29A0F5002BF1FC /* Build configuration list for PBXProject "FoxitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45C35A1F29A0F5002BF1FC /* Debug */,
+				6D45C35B1F29A0F5002BF1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D45C35C1F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45C35D1F29A0F5002BF1FC /* Debug */,
+				6D45C35E1F29A0F5002BF1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D45C35F1F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45C3601F29A0F5002BF1FC /* Debug */,
+				6D45C3611F29A0F5002BF1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D45C3621F29A0F5002BF1FC /* Build configuration list for PBXNativeTarget "FoxitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45C3631F29A0F5002BF1FC /* Debug */,
+				6D45C3641F29A0F5002BF1FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D45C3271F29A0F5002BF1FC /* Project object */;
+}
